@@ -18,6 +18,7 @@ Outside of this control room, we would see the robot that all these recorded mov
 I Liked the idea, but then I started going through everything I would need to implement it. Recording the player, saving those movements, playing BACK those recordings on a different model. I tried messing around with the Unity Animation Recorder, but I was having trouble translating the movements of my hands from the animation file to a kinematic humanoid. If I spent more time playing around with it, i'm sure I could get something to work, but I wanted to experiment more.
 
 My next idea came to me while I was messing around with the no-hands mode on the Quest 3. What if you could pilot your hand like Thing from the Addams Family? Have it skitter and crawl around an environment?
+![](/images/thething.gif)
 I would have a seperate ridgidbody hand that mimics exactly what your hand is doing, and what I wanted was for it to be moved through pure physics. It would be a challenge to get it moving and steady, and take a good amount of work to master.
 But it turns out that the Meta XR All-in-one hands do NOT like being their own ridgidbodies, so while yes I could make a copy of my hand and move its fingers, the hand wouldn't interact with its environment. Once again I think if I experiment with it more I may be able to make a breakthrough, but I thought of something that could build upon this hand idea.
 
