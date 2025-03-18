@@ -24,5 +24,5 @@ I would have a seperate ridgidbody hand that mimics exactly what your hand is do
 The player would also need to be able to interact with the environment, and since we would already be using the right hand for movement, what if it could switch between moving around and grabbing things?
 
 This would become my core principle of the project. Purely with the hand tracking data of a player's right hand, they should be able to do anything needed by the game with only that one hand.
-## But how can we design a VR locomotion and interaction technique that utilizes only one hand, and is intuitive to the player? 
+### But how can we design a VR locomotion and interaction technique that utilizes only one hand, and is intuitive to the player? 
 This is what I would be asking myself throughout the project and while I implement the way the hand would move and interact with the game.
