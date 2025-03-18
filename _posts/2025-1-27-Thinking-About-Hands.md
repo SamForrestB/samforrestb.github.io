@@ -21,8 +21,8 @@ My next idea came to me while I was messing around with the no-hands mode on the
 ![](/images/thething.gif)
 
 I would have a seperate ridgidbody hand that mimics exactly what your hand is doing, and what I wanted was for it to be moved through pure physics. It would be a challenge to get it moving and steady, and take a good amount of work to master.
-But it turns out that the Meta XR All-in-one hands do NOT like being their own ridgidbodies, so while yes I could make a copy of my hand and move its fingers, the hand wouldn't interact with its environment. Once again I think if I experiment with it more I may be able to make a breakthrough, but I thought of something that could build upon this hand idea.
+The player would also need to be able to interact with the environment, and since we would already be using the right hand for movement, what if it could switch between moving around and grabbing things?
 
-So if I couldn't get the hand to move by itself, I thought the next best thing would be getting it to move indirectly. What if I attach the hand to an invisible ball, and then use pose detection and hand position to move it? When I make a 'running' pose with my hands, it begins moving forward, and turning my hand to the left or right would rotate it.
-This could be a way to get something to actually work, and then I could iterate on it more and more, adding small elements here and there.
-Either way, its better than having nothing to show!
+This would become my core principle of the project. Purely with the hand tracking data of a player's right hand, they should be able to do anything needed by the game with only that one hand.
+## But how can we design a VR locomotion and interaction technique that utilizes only one hand, and is intuitive to the player? 
+This is what I would be asking myself throughout the project and while I implement the way the hand would move and interact with the game.
