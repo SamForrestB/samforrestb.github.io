@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Implementation - The Basics
+title: Closing Thoughts and Remarks
 categories: [Project, IVRAR, Computer Science]
 excerpt: This project was a great learning experience for stepping into the basics of VR development.
 ---
