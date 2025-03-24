@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Implementation - The Basics
+title: Live Testing
 categories: [Project, IVRAR, Computer Science]
 excerpt: With a basic interaction method, its time to get some live feedback.
 ---
