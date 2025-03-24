@@ -1,0 +1,8 @@
+---
+layout: post
+title: Implementation - The Basics
+categories: [Project, IVRAR, Computer Science]
+excerpt: The player can now move around the map with just movements of their hand, but how can they interact with the required tasks?
+---
+
+The player can now move around the map with just movements of their hand, but how can they interact with the required tasks?
