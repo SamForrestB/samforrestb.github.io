@@ -6,3 +6,14 @@ excerpt: With the camera following our hand, and the player able to rotate, its 
 ---
 
 With the camera following our hand, and the player able to rotate, its time to actually move.
+
+![](/images/MovingFist.gif)
+
+
+![](/images/FixedMovement.gif)
+
+
+![](/images/ColliderMovement.gif)
+
+
+![](/images/HandJump.gif)
