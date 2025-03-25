@@ -16,4 +16,7 @@ The player can now move around the map with just movements of their hand, but ho
 ![](/images/SelectionModeV2.gif)
 
 
-![](/images/ObjectTask.gif)
+![](/images/ObjectTask1.gif)
+
+
+![](/images/ObjectTask2.gif)
