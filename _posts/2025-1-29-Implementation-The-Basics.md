@@ -12,7 +12,7 @@ I then made sure to disable the left hand and controllers, so that the player is
 Since I want the camera to be following this hand as it is moving around the course, I first tried making the camera rig a child of the hand, but as I tested manually moving the hand around in the editor, the camera movement was way too stiff. 
 It was almost making me sick, so I disconnected the camera from the hand, and decided on moving the camera with a script, so its more smooth and adjustable. 
 
-First I would create a offset position behind the hand that the camera would be moving to
+First I would create a offset position behind the hand that the camera would be moving to:
 ```cs
 Vector3 offset = -correctedForward * distance + correctedUp * height;
 targetPosition = hand.position + offset;
@@ -20,7 +20,7 @@ targetPosition = hand.position + offset;
 transform.position = Vector3.Lerp(transform.position, targetPosition, followSpeed * Time.deltaTime);
 ```
 
-Then I would get the rotation needed to look at the hand, and smoothly nudge the camera back to looking at it
+Then I would get the rotation needed to look at the hand, and smoothly nudge the camera back to looking at it:
 ```cs
 Vector3 directionToWrist = wrist.position - transform.position;
 targetRotation = Quaternion.LookRotation(directionToWrist, correctedUp);
