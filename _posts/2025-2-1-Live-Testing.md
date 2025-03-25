@@ -7,4 +7,4 @@ excerpt: With a basic interaction method, its time to get some live feedback.
 
 With a basic interaction method, its time to get some live feedback.
 
-![](/images/Running_the_Course.mp4)
+![](/images/RunningtheCourse.mp4)
