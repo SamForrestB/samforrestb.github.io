@@ -15,17 +15,17 @@ It was almost making me sick, so I disconnected the camera from the hand, and de
 First I would create a offset position behind the hand that the camera would be moving to
 ```cs
 Vector3 offset = -correctedForward * distance + correctedUp * height;
-_targetPosition = hand.position + offset;
+targetPosition = hand.position + offset;
 
-transform.position = Vector3.Lerp(transform.position, _targetPosition, followSpeed * Time.deltaTime);
+transform.position = Vector3.Lerp(transform.position, targetPosition, followSpeed * Time.deltaTime);
 ```
 
 Then I would get the rotation needed to look at the hand, and smoothly nudge the camera back to looking at it
 ```cs
 Vector3 directionToWrist = wrist.position - transform.position;
-_targetRotation = Quaternion.LookRotation(directionToWrist, correctedUp);
+targetRotation = Quaternion.LookRotation(directionToWrist, correctedUp);
 
-transform.rotation = Quaternion.Slerp(transform.rotation, _targetRotation, rotationSpeed * Time.deltaTime);
+transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
 ```
 
 ![](/images/HandRotation.gif)
