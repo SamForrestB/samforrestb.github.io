@@ -6,3 +6,5 @@ excerpt: With a basic interaction method, its time to get some live feedback.
 ---
 
 With a basic interaction method, its time to get some live feedback.
+
+![](/images/Running the Course.mp4)
