@@ -46,7 +46,7 @@ If the ray hits the upper trigger, the hand enters its interaction mode. And whe
 Here you can get a better idea of the collision triggers and how the ray interacts with them.
 ![](/images/ChangingModes.gif)
 
-For the first version of this interaction mode, I had the moving hand be what you would use to interact with the task, but I had trouble refining its movement and ability to actualy grab and select things.
+For the first version of this interaction mode, I had the moving hand be what you would use to interact with the task, but I had trouble refining its movement and ability to actualy grab and select things. Here you can see that the hand would just touch the buttons instantly and skip past the tasks.
 ![](/images/SelectionModeV1.gif)
 
 I then decided that I would deactivate the large hand when you enter selection mode, and teleport the camera rig to where the hand was.
