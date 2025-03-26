@@ -80,7 +80,7 @@ if (locomotionTechnique != null && locomotionTechnique.currentMode == Locomotion
     }
 }
 ```
-Here you can see me trying to orient an object in the correct direction. My hands are fairly shakey so I have a hard time getting it correct, but that is also a flaw with my implementation.
+Here you can see me trying to orient an object in the correct direction. My hands are fairly shakey so I have a hard time getting it correct, but that is also a flaw with my implementation. The raw hand tracking isn't fine enough to use, and I needed to smooth it out more.
 ![](/images/ObjectTask1.gif)
 
 You can enter move mode and get closer then go back to interaction mode, which helps a bit in getting it correct. But it is still possible to reorient an object in any way, you just need to grab the object from different angles and distances.
